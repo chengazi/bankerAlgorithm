@@ -6,6 +6,7 @@
 #define PROCESS_NUMBER 5
 
 int available[RESOURCES_NUMBER]
-int allocated[RESOURCES_NUMBER]
+int allocated[PROCESS_NUMBER][RESOURCES_NUMBER]
+int calimed[PROCESS_NUMBER][RESOURCES_NUMBER]
 
 #endif
